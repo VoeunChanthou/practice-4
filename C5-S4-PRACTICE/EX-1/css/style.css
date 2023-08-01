@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border-radius: 5px;
+    display: flex;
+    width: 70%;
+    height: 90%;
+}
+/* ------left containder------ */
+.left-container{
+    width: 50%;
+    background: rgb(32, 0, 177);
+    color: rgb(203, 200, 200);
+    padding: 30px 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+p{
+    font-size: 13px;
+}
+.left-container>h2{
+    color: white;
+}
+h2{
+    text-transform: uppercase;
+}
+input[type=submit]{
+    padding: 10px;
+    background: white;
+    border: none;
+    border-radius: 3px 0px 3px 0px;
+    font-weight: bold;
+}
+p>span{
+    font-weight: bold;
+    color: white;
+}
+/* -----right container------- */
+.right-container{
+    width: 50%;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 0px 5px 5px 0px;
+}
+.right-container>h2{
+    color: rgb(0, 0, 201);
+}
+.username, .user-password{
+    display: flex;
+    margin: 20px 0px;
+    width: 100%;
+}
+.check{
+    margin: 20px 0px;
+    width: 100%;
+}
+.user-email{
+    display: flex;
+    flex-direction: column;
+}
+.firstname, .lastname, .password, .confirm{
+    width: 50%;
+}
+input{
+    padding: 5px 0px;
+}
+.firstname>input,
+.lastname>input,
+.password>input,
+.confirm>input{
+    width: 150px;
+}
+.firstname, .password{
+    margin-right: 10px;
+}
+label{
+    font-weight: bold;
+    font-size: 13px;
+}
+.gg>input[type=submit]{
+    background: rgb(4, 57, 171);
+    border-radius: 3px;
+    color: white;
+    width: 120px;
+    padding: 8px;
+}
+.check>span{
+    text-decoration: underline;
+    color: blue;
+}

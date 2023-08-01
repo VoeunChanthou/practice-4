@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 700px;
+    height: 500px;
+    display: flex;
+}
+.left-container, .right-container{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+}
+/* -----left container----- */
+.left-container{
+    background: rgb(29, 58, 204);
+    color: rgb(235, 235, 235);
+    border-radius: 10px 0px 0px 10px;
+}
+.left, .right{
+    margin: 30px 0px;
+    width: 90%;
+}
+h2{
+    text-transform: uppercase;
+    color: white;
+}
+input[type=submit]{
+    padding: 12px;
+    background: white;
+    border-radius: 4px 0px 4px 0px;
+    border: none;
+    font-weight: bold;
+}
+p>span{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+/* ----right container---- */
+.right-container{
+    background: white;
+    border-radius: 0px 10px 10px 0px;
+}
+.right>h2, span{
+    color: rgb(7, 7, 190);
+}
+.check>input{
+    margin-right: 10px;
+}
+span{
+    text-decoration: underline;
+}
+.username, .user-password{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.firstname, .lastname, .password, .confirm{
+    width: 50%;
+}
+.firstname>input, .lastname>input,
+.password>input, .confirm>input{
+    width: 98%;
+}
+.user-email{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+input{
+    padding: 8px 0px;
+}
+.username, .user-email, .user-password, .check, .gg{
+    margin-top: 25px;
+}
+.gg>input[type=submit]{
+    padding: 12px 30px;
+    background: rgb(7, 7, 185);
+    color: white;
+}
+label{
+    font-size: 14px;
+    font-weight: bold;
+}

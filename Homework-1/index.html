@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homework</title>
+    <link rel="stylesheet" href="css/stlye.css">
+</head>
+<body>
+    <form action="#">
+        <header>
+            <h2>Create Account</h2>
+        </header>
+        <main>
+            <div class="user-name">
+                <div class="first-name">
+                    <label>First name*</label>
+                    <input type="text" placeholder="Enter your first name">
+                </div>
+                <div class="last-name">
+                    <label>Last name*</label>
+                    <input type="text" placeholder="Enter your last name">
+                </div>
+            </div>
+            <div class="user-email">
+                <label>Email*</label>
+                <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="user-password">
+                <div class="password">
+                    <label>Password*</label>
+                    <input type="password" placeholder="Enter your password">
+                </div>
+                <div class="comfirm">
+                    <label>Comfirm Password*</label>
+                    <input type="password" placeholder="Enter your password again">
+                </div>
+            </div>
+            <div class="gender-hobbies">
+                <div class="gender">
+                    <label>Gender</label>
+                    <div class="gender-choise">
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                    </div>
+                </div>
+                <div class="hobbies">
+                    <label>Hobbies</label>
+                    <div class="hobbies-choise">
+                        <input type="checkbox" name="hobbies" value="music">Music
+                        <input type="checkbox" name="hobbies" value="sport">Sport
+                        <input type="checkbox" name="hobbies" value="travel">Travel
+                        <input type="checkbox" name="hobbies" value="movie">Movie
+                    </div>
+                </div>
+            </div>
+            <div class="source-income">
+                <div class="source">
+                    <label>Source of Income</label>
+                    <select name="source" id="">
+                        <option value="employed">Employed</option>
+                        <option value="employed">Employed</option>
+                        <option value="employed">Employed</option>
+                    </select>
+                </div>
+                <div class="Income">
+                    <label>Income</label>
+                    <div class="range">
+                        <input type="range" name="Income" min="0" max="20K">
+                        <span>24K</span>
+                    </div>
+                </div>
+            </div>
+            <div class="file-age">
+                <div class="file">
+                    <label>Upload Profile Picture</label>
+                    <input type="file">
+                </div>
+                <div class="age">
+                    <label>Age</label>
+                    <input type="number">
+                </div>
+            </div>
+            <div class="bio">
+                <label>Bio</label>
+                <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+            </div>
+        </main>
+        <footer>
+            <input type="submit" name="submit" value="Create" >
+        </footer>
+    </form>
+</body>
+</html>

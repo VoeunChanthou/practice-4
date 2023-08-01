@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 41.5%;
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(155, 235, 147);
+    border-radius: 10px;
+    background: rgba(254, 2, 254, 0.2);
+}
+/* ----header---- */
+header{
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: rgba(30, 255, 0, 0.3);
+    border-radius: 10px 10px 0px 0px;
+}
+/* -----main----- */
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.user-name, .user-password, .gender-hobbies, .source-income, .file-age{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.bio{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    width: 100%;
+}
+.first-name, .last-name, .user-email, .password, .comfirm, .Income, .source{
+    display: flex;
+    flex-direction: column;
+}
+.last-name>input, .first-name>input, .password>input, .comfirm>input, .source>select, .file>input, .age>input{
+    width: 230px;
+}
+.range>input{
+    width: 195px;
+}
+span{
+    background: lightseagreen;
+    color: white;
+    padding: 4px;
+    border-radius: 3px;
+}
+.user-email{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+label{
+    color: rgb(3, 183, 126);
+    font-weight: bold;
+}
+
+/* ----footer--- */
+footer{
+    flex: 0;
+    background: gainsboro;
+    border-radius: 0px 0px 10px 10px;
+    padding: 6px 10px;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: end;
+    padding-right: 23px;
+}
+footer>input{
+    background: rgb(44, 194, 44);
+    color: white;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+}

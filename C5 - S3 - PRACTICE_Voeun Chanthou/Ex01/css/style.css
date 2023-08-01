@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
+form{
+    height: 60%;
+    width: 30%;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.username, .email, .password{
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+}
+.check-box{
+    width: 94%;
+}
+input{
+    padding: 7px;
+}
+input[type=submit]{
+    width: 94%;
+    background: orange;
+    border-radius: 10px;
+    border: none;
+}
+h3, span{
+    text-decoration: underline;
+}
+h3{
+    text-transform: uppercase;
+}

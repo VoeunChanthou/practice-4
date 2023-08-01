@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
+form{
+    height: 96%;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: rgb(232, 229, 229);
+}
+span{
+    align-self: self-end;
+    padding: 6px;
+    border-radius: 2px;
+    background: rgb(0, 186, 103);
+    color: white;
+}
+input, select{
+    padding: 3px;
+}
+
+/* ----header----- */
+.form-header{
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* -----body------ */
+.form-body{
+    background: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+}
+.user-name, .user-passwords, .user-more-infos, .user-info{
+    display: flex;
+    justify-content: space-between;
+}
+.user-firstname, .user-lastname, .user-password, .user-confirm-password, .user-financial, .user-income, .user-profile, .user-age{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+.user-bio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.range-income>input{
+    width: 79%;
+}
+.user-email{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: rgb(9, 188, 125);
+}
+/* -----footer------ */
+.form-footer{
+    flex: 0;
+    padding: 10px 30px 10px 10px;
+    display: flex;
+    justify-content: end;
+}
+button{
+    padding: 7px 15px;
+    background: rgb(4, 188, 124);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
